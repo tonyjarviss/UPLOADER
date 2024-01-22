@@ -11,13 +11,13 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6889424636:AAFKETMC4R8IMnAjnns7MIjVzPmroMyZYNQ")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("API_ID", 23054736))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("API_HASH", "d538c2e1a687d414f5c3dce7bf4a743c")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1352497419").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
@@ -53,11 +53,11 @@ class Config(object):
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1352497419"))
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "jarvis_tont_bot")
 
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
 
